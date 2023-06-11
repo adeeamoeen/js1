@@ -1,0 +1,68 @@
+
+*{ padding: 0;; margin:0;; box-sizing: border-box; font-family: sans-serif; }
+
+
+
+nav {
+	background-color:#ecee6c; /* set background color */
+  overflow: hidden; 
+  box-shadow: 2px 0px 5px grey;
+  border-bottom: 2px solid rgb(223, 231, 163);
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+  
+}
+  
+  
+  nav ul {
+	margin: 0; /* remove default margin */
+	padding: 0; /* remove default padding */
+	list-style: none; /* remove default bullet points */
+	display: flex; /* set display to flex */
+  }
+  
+  nav li {
+	flex: 1; /* distribute items evenly */
+  }
+  
+  nav a {
+	display: block; /* set display to block */
+	color: rgb(10, 8, 8); /* set text color */
+	text-align: center; /* center text */
+	padding: 14px 16px; /* add padding */
+	text-decoration: none; /* remove underline */
+	font-size: 20px;
+	font-weight: bold;
+	;
+
+  }
+  
+  nav a:hover {
+	background-color: #8b8484; /* change background color on hover */
+	color: azure;
+  }
+  .logo{
+    font-size: 40px;
+    font-weight: bold;
+  }  
+
+	/* Styles for the dropdown container */
+#myDropdown {
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #141414;
+	border-radius: 5px;
+	background-color: #76c0b0;
+	font-size: 16px;
+	color: #131212;
+  }
+  
+  /* Styles for the dropdown options */
+  #myDropdown option {
+	font-size: 14px;
+	color: #0a0a0a;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
